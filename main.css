@@ -1,0 +1,67 @@
+*{
+  
+  color: rgb(0, 0, 0);
+  font-size: 16px;
+  font-weight: 600; 
+  color: white;
+}
+
+.body{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url(./numbers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+  color: white; 
+   font-family: 'VT323', monospace;
+
+}
+.Main-Heading{
+ font-family: 'Major Mono Display', monospace;
+font-size: 32px; 
+color: chartreuse; 
+
+}
+
+.first-div{
+  display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+}
+.Main-Heading{
+  display: flex;
+}
+.selected-variable{
+  display: flex;
+}
+.second-div1 button{
+  height: 44px;
+  width: 42px; 
+  margin: 24px; 
+  background:  blueviolet; 
+  background:2px solid;
+  border-radius: 4px;
+  color: chartreuse; 
+  cursor: pointer;
+} 
+.second-div2 button{
+  height: 44px;
+  width: 42px; 
+  margin: 24px; 
+  background:  blueviolet; 
+  background:2px solid;
+  border-radius: 4px;
+  color: chartreuse; 
+  cursor: pointer;
+} 
+.img1{
+  height: 148px;
+  width: 148px;
+} 
+p{
+  margin: 24px 56px; 
+  font-size: 24px; 
+  color: limegreen;
+}
